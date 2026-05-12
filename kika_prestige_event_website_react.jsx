@@ -1,9 +1,9 @@
 export default function KikaPrestigeWebsite() {
   const services = [
     {
-      title: "Organisation d'événements",
+      title: "Organisation d’événements",
       description:
-        "Création et gestion d'événements privés et professionnels sur mesure avec une attention particulière aux détails.",
+        "Création et gestion d’événements privés et professionnels sur mesure avec une attention particulière aux détails.",
     },
     {
       title: "Mariages & Réceptions",
@@ -18,7 +18,7 @@ export default function KikaPrestigeWebsite() {
     {
       title: "Événements Corporate",
       description:
-        "Séminaires, lancements de produits, soirées d'entreprise et événements premium pour valoriser votre image.",
+        "Séminaires, lancements de produits, soirées d’entreprise et événements premium pour valoriser votre image.",
     },
   ];
 
@@ -37,7 +37,7 @@ export default function KikaPrestigeWebsite() {
           className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2000&auto=format&fit=crop)",
+              "url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2000&auto=format&fit=crop')",
           }}
         />
 
@@ -50,11 +50,11 @@ export default function KikaPrestigeWebsite() {
             </p>
 
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-6">
-              L'art de créer des événements élégants et inoubliables.
+              L’art de créer des événements élégants et inoubliables.
             </h1>
 
             <p className="text-lg text-neutral-300 leading-relaxed mb-10 max-w-2xl">
-              Kika Prestige accompagne particuliers, entreprises et marques dans la conception d'événements haut de gamme : mariages, soirées privées, événements corporate et expériences exclusives.
+              Kika Prestige accompagne particuliers, entreprises et marques dans la conception d’événements haut de gamme : mariages, soirées privées, événements corporate et expériences exclusives.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -78,15 +78,15 @@ export default function KikaPrestigeWebsite() {
           </p>
 
           <h2 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-            Une agence événementielle pensée pour l'excellence.
+            Une agence événementielle pensée pour l’excellence.
           </h2>
 
           <p className="text-neutral-300 leading-relaxed mb-6 text-lg">
-            Chez Kika Prestige, chaque événement est conçu comme une expérience unique. Nous combinons créativité, élégance et organisation stratégique afin d'offrir des moments exceptionnels et mémorables.
+            Chez Kika Prestige, chaque événement est conçu comme une expérience unique. Nous combinons créativité, élégance et organisation stratégique afin d’offrir des moments exceptionnels à vos invités.
           </p>
 
           <p className="text-neutral-400 leading-relaxed">
-            Notre équipe prend en charge l'ensemble du projet : concept, décoration, coordination, logistique et expérience client.
+            Notre équipe prend en charge l’ensemble du projet : concept, décoration, coordination, logistique et expérience client.
           </p>
         </div>
 
@@ -154,7 +154,7 @@ export default function KikaPrestigeWebsite() {
           </div>
 
           <p className="text-neutral-400 max-w-xl leading-relaxed">
-            Découvrez quelques inspirations visuelles représentant l'univers élégant et moderne de Kika Prestige.
+            Découvrez quelques inspirations visuelles représentant l’univers élégant et moderne de Kika Prestige.
           </p>
         </div>
 
@@ -207,7 +207,7 @@ export default function KikaPrestigeWebsite() {
                 />
 
                 <textarea
-                  rows={5}
+                  rows="5"
                   placeholder="Décrivez votre événement"
                   className="w-full border border-neutral-200 rounded-xl px-4 py-4 outline-none focus:border-black"
                 />
